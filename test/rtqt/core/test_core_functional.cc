@@ -1,5 +1,5 @@
 /**
- * @file test_core_function.cc
+ * @file test_core_functional.cc
  * @author TONBUL, Muhammet
 */
 
