@@ -10,3 +10,4 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 include(DependGoogleTest)
 
 add_subdirectory(rtqt)
+add_subdirectory(test)

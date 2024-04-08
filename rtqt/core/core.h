@@ -6,4 +6,6 @@
 #ifndef CORE_H
 #define CORE_H
 
+#include <core_pair.h>
+
 #endif /* !CORE_H */
