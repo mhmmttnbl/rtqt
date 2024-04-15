@@ -121,8 +121,10 @@ namespace rtqt
   _Core_vector_base<_Tp, _Allocator>
     ::_M_memory_destroy(_Tp *__first, _Tp *__last)
   {
+    _Allocator __alloc;
+
     for (; __first != __last; ++__first) {
-      __first->~_Tp();
+      __alloc.destroy(__first);
     }
   }
 
