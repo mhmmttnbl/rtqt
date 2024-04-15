@@ -8,5 +8,6 @@
 
 #include <core_functional.h>
 #include <core_pair.h>
+#include <core_vector.h>
 
 #endif /* !CORE_H */
