@@ -26,6 +26,21 @@ TEST(test_core_algorithm, core_algorithm_minimum_element_vector)
   EXPECT_EQ(*__result, 10);
 }
 
+TEST(test_core_algorithm, core_algorithm_maximum_element_vector)
+{
+  core_vector<int> __v;
+
+  __v.push_back(50);
+  __v.push_back(10);
+  __v.push_back(20);
+  __v.push_back(40);
+  __v.push_back(30);
+
+  auto __result = core_maximum_element(__v.begin(), __v.end());
+
+  EXPECT_EQ(*__result, 50);
+}
+
 int
 main(int argc, char **argv)
 {
