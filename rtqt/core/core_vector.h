@@ -9,7 +9,6 @@
 #include <cstddef>
 #include <memory>
 #include <new>
-#include <vector>
 
 namespace rtqt
 {
